@@ -36,6 +36,7 @@ if __name__ == '__main__':
             original_list.append(int(line))
         compacted_lines = compact(original_list)
 
-        print(num_increments(compacted_lines))
+        print(num_increments(original_list)) #Problem 1
+        print(num_increments(compacted_lines)) #Problem 2
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/

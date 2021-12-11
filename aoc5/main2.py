@@ -56,8 +56,6 @@ if __name__ == '__main__':
         for line in input_file:
             data_tuple = line.replace('\n', '').split(' -> ')
             coords = get_coords_from_input_line(data_tuple)
-            if hor_or_vert(coords):
-                add_to_map(get_points_in_line(coords))
             add_to_map(get_points_in_line(coords))
         total = 0
         for line in array_map:
